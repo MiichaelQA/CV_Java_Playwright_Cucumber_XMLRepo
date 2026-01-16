@@ -1,0 +1,49 @@
+/target/
+/build/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+.allure/
+
+src/main/java/framework/pageObject/errorsAction/
+src/main/java/framework/pageObject/ElementDef.java
+src/main/java/framework/pageObject/Navigator.java
+src/main/java/framework/pageObject/PageDef.java
+src/main/java/framework/pageObject/ReadyHelper.java
+src/main/java/framework/pageObject/UiType.java
+src/main/java/framework/pageObject/XmlRepository.java
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+

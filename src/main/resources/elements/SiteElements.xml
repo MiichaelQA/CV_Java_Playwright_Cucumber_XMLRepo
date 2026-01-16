@@ -1,0 +1,18 @@
+<navigation>
+    <page name="Главная" url="https://the-internet.herokuapp.com/" >
+        <staticText name="Welcome to the internet" locator="//div[@id='content']//*[@class='heading']" boolean="true"/>
+        <page name="Динамические загрузки" url="https://the-internet.herokuapp.com/dynamic_loading">
+            <button name="Example 1" locator="//div[@class='example']//a[contains(text(),'Example 1')]"/>
+            <button name="Example 2" locator="//div[@class='example']//a[contains(text(),'Example 2')]"/>
+        </page>
+        <page name="Забытый пароль" url="https://the-internet.herokuapp.com/forgot_password">
+            <input name="E-mail" locator="//input[@name='email']" boolean="true"/>
+            <button name="Вернуть пароль" locator="//button[@id='form_submit']/i"/>
+            <staticText name="Ответ сервера" locator="//body/h1" />
+        </page>
+        <page name="Слайдер" url="https://the-internet.herokuapp.com/horizontal_slider">
+            <slider name="Горизонтальный слайдер" locator="//div[@class='sliderContainer']/input"/>
+            <staticText name="Значение слайдера" locator="//span[@id='range']"/>
+        </page>
+    </page>
+</navigation>
